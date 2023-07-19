@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        caption{
+            background-color: rgba(224, 224, 224, 0.719);
+            font-weight: bold;
+            font-size: 1.7em;
+            padding: 10px;
+            font-variant: small-caps;
+        }
+        table{
+          
+            border-collapse: collapse;
+            margin: auto;
+            position: relative;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+    
+        thead, tfoot{
+            text-align: center;
+            color: white;
+            background-color: gray;
+            font-variant: small-caps;
+        }
+        td.num{
+            text-align: right;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+            border: 1px solid black;
+        }
+        .cnome{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de tabela</h1>
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprofissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profisão</th>
+        </tr>
+        <tr>
+            <td>Rafael</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Policial</td>
+        </tr>
+        <tr>
+            <td>Ana</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Professora</td>
+        </tr>
+        <tr class="destaque">
+            <td>Daniel</td>
+            <td>M</td>
+            <td>25</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>75</td>
+            <td>Aposentada</td>
+        </tr>
+    </table>
+</body>
+</html>
