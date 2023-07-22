@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+ background-image: url(../imagens/wallpaper.png);
+ background-position: center center;
+ background-attachment: fixed;
+ overflow: hidden;
+ background-size: cover;
+ background-repeat: no-repeat;
+
+}
+section#tela iframe
+{
+    position: relative;
+    height: 85vh;
+    width: 130vh;
+    top: 77px;
+    left: 10px;
+   
+}
+section#app img{
+
+    width: 40px;
+    padding: 10px;
+    
+}
+section#app{
+    text-align: center;
+    padding-right: 30px;
+}
+div img{
+    width: 26px;
+    margin: 13px;
+    padding: 1px;
+    box-sizing: border-box;
+}
+div{
+    position: relative;
+    top: 30px;
+    background-color: black;
+    text-align: center;
+    
+    padding-right: 50px;
+}
+div p{
+    position: relative;
+    top: -58px;
+    left: 579px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+#adicionais{
+    position: relative;
+    max-width: 100px;
+    left: 500px;
+    top: 6px;
+}
