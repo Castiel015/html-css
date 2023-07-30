@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+fieldset{
+    text-align: center;
+    background-image: linear-gradient(to left, purple, white);
+    border: solid 1px purple;
+    margin: auto;
+    width: 50%;
+    
+
+}

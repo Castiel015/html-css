@@ -1,11 +1,95 @@
 @charset "UTF-8";
 
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
 *{
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-header{
+::selection{
     background-color: black;
-    padding-bottom: 50px;
+    color: white;
+}
+nav{
+    background-color: black;
+    padding-top: 50px;
+    color: white;
+    text-align: right;
+    box-shadow: 1px 3px 1px 1px rgba(0, 0, 0, 0.666) ;
+    position: fixed;
+    width: 100%;
+}
+nav > a{
+    padding-right: 30px;
+    font-size: 1.4em;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+ 
+   
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
+    transition-duration: 200ms;
+    transition: border .5;
+    
+ }
+ 
+ section#inicio{
+ 
+    background-image: url(Ut1h5g.webp);
+    color: white;
+    
+    text-align: center;
+    font-size: 2em;  
+    height: 900px;
+    background-attachment: fixed;
+}
+section#inicio > h1{
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 900px;
+}
+section#inicio > p{
+ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 800px;
+    
+}
+main{
+    background-position: top center;
+    background-size:cover;
+    height: 100vh;
+    
+}
+section#sobre{
+    background-color: rgb(54, 54, 54);
+    height: 500px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 1.8em;
+    text-align: justify;
+}
+section#sobre > p{
+    padding-left: 80px;
+    padding-top:30px;
+   
+}
+section#sobre > img
+{
+ 
+  width: 471px;
+  text-align: right;
+ 
 }
